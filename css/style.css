@@ -1,3 +1,12 @@
+:root {
+  --clr-primary: #4F7DF3;
+  --clr-primary-lt: #C2D3FF;
+  --clr-secondary: #FF5263;
+  --clr-base: #969696;
+  --clr-base-dk: #151F29;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Libre Franklin', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +18,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
   line-height: 1.4;
 }
