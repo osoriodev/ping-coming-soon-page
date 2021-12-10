@@ -211,6 +211,9 @@ a {
     font-size: 1.6rem;
     flex-shrink: 0;
   }
+  .main__cta--error {
+    transform: none;
+  }
   .main__error-message {
     top: 6rem;
     left: 3.2rem;
