@@ -14,8 +14,39 @@
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <main class="main">
+      <a class="main__link" href="#">
+        <img class="main__link-img" src="./assets/logo.svg" alt="Ping logo">
+      </a>
+      <h1 class="main__title">We are launching <span>soon!</span></h1>
+      <p class="main__descrip">Subscribe and get notified</p>
+      <form class="main__form" action="#">
+        <input class="main__input" type="email" name="email" id="email" placeholder="Your email address...">
+        <button class="main__cta">Notify Me</button>
+        <p class="main__error-message">Please provide a valid email address</p>
+      </form>
+      <img class="main__img" src="./assets/illustration-dashboard.png" alt="Dashboard">
+    </main>
+    <footer class="footer">
+      <ul class="footer__social">
+        <li>
+          <a class="footer__link" href="#" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a class="footer__link" href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a class="footer__link footer__link--last" href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="footer__copy">© Copyright Ping. All rights reserved.</p>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
