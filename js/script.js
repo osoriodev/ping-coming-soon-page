@@ -18,7 +18,12 @@ const hideError = () => {
 
 const validateEmail = () => {
   let value = emailInput.value
-  if (!re.test(value)) {
+
+  if (value === '') {
+    message.innerText = "Whoops! It looks like you forgot to add your email"
+    displayError()
+  } else if (!re.test(value)) {
+    message.innerText = "Please provide a valid email address"
     displayError()
   } else {
     hideError()
